@@ -599,6 +599,7 @@ table.table.table-condensed.table-striped td a i {
 .cryptosourcetitle{
 display: flex;
 justify-content: space-between;
+align-items: center;
 }
 .searchwrap{
   display: flex;
