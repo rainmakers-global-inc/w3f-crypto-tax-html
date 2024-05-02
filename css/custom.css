@@ -599,7 +599,6 @@ table.table.table-condensed.table-striped td a i {
 .cryptosourcetitle{
 display: flex;
 justify-content: space-between;
-align-items: center;
 }
 .searchwrap{
   display: flex;
@@ -696,3 +695,187 @@ background: rgb(30, 30, 30);
   flex-direction: column;
   align-items: center;
 }
+
+/* start report page 02.05.24 */
+.reporttab {
+  width: 100%;
+  position: relative;
+  padding: 16px 0px;
+  border-bottom: 1px solid #394566;
+}
+.reporttab .nav-tabs .nav-item {
+  flex: 1;
+}
+.reporttab .nav-tabs .nav-item .nav-link {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border: 1px solid #394566;
+  border-radius: 0px;
+}
+.reporttab .nav-tabs .nav-item.show .nav-link, .reporttab .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #2D4579;
+    border-color: #2D4579;
+}
+.reporttab .nav-tabs .nav-item:first-child .nav-link {
+  border-radius: 6px 0px 0px 6px;
+  border-right: 0px;
+}
+.reporttab .nav-tabs .nav-item:last-child .nav-link {
+  border-radius: 0px 6px 6px 0px;
+  border-left: 0px;
+}
+.reporttab .nav-tabs {
+    border-bottom: 0px;
+    padding: 0px 24px;
+}
+.dropflexbox .tran-select form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexcheck {
+  display: flex;
+  align-items: center;
+}
+.flexcheck .form-check {
+  padding: 0px 24px;
+  text-transform: uppercase;
+  margin-left: 24px;
+  position: relative;
+}
+.flexcheck .form-check + .form-check::before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 4px;
+    height: 16px;
+    width: 1px;
+    background: #394566;
+}
+.dropflexbox {
+    padding: 11px 24px;
+    border-bottom: 1px solid #394566;
+    border-top: 1px solid #394566;
+    margin-top: 16px;
+}
+.dropflexbox .tran-select {
+  margin-top: 0px;
+}
+.dropflexbox .tran-select select {
+  min-width: 191px;
+  height: 38px;
+  padding: 7px, 16px, 7px, 16px;
+  border-radius: 6px;
+}
+.reporttab th {
+  font-weight: normal;
+}
+.reporttab .transaction-table table td.greentext {
+  color: #38BC4D !important;
+}
+.reporttab .transaction-table table td.redtext {
+  color: #D82E42 !important;
+}
+.reporttab .transaction-table table.table.table-condensed.table-striped td {
+    padding: 10px 10px;
+    cursor: pointer;
+    
+}
+.reporttab .tdwidth .transaction-table table.table.table-condensed.table-striped td {
+  width: 20%;
+}
+.reporttab .tdwidth .transaction-table table.table.table-condensed.table-striped th:first-child {
+       padding-left: 24px;
+}
+.reporttab .table>thead {
+  padding: 0px 14px;
+}
+.reporttab tbody {
+  padding: 0px 14px;
+}
+.reporttab .tdwidth .transaction-table table.table.table-condensed.table-striped td:first-child {
+  padding-left: 24px;
+  width: 18%;
+}
+.reporttab .tdwidth2 .transaction-table table.table.table-condensed.table-striped td:first-child{
+  padding-left: 24px;
+}
+.reporttab .tdwidth2 .transaction-table table.table.table-condensed.table-striped th:first-child{
+  padding-left: 24px;
+}
+.reporttab .tdwidth .transaction-table table.table.table-condensed.table-striped td:nth-child(2) {
+  width: 10%;
+}
+.bottomtbl {
+  border-top: 1px solid #394566;
+  padding-top: 14px;
+}
+.bottomtbl td:last-child {
+  text-align: right;
+  padding-right: 24px !important;
+}
+.reporttab .tdwidth2 .transaction-table table.table.table-condensed.table-striped td:last-child {
+  padding-right: 24px !important;
+}
+.reporttab td, .reporttab th {
+  vertical-align: middle;
+  cursor: auto !important;
+}
+.closeyearbtn {
+    width: 150px;
+    height: 36px;
+    padding: 7px 0px;
+    border-radius: 6px;
+    border: 1px solid #2D4579;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    margin-left: auto;
+}
+.closeyearbtn.deseble {
+  color: #7B7D80;
+  border-color: #474747;
+}
+span.reporticon {
+    margin-left: 40px;
+}
+.reportbtn {
+  height: 52px;
+  padding: 14px 16px 14px 16px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background: #000;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reportbtn:hover {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+.btnflex {
+  display: flex;
+  align-items: center;
+  gap: 0px 16px;
+}
+.reportsflxbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* end report page 02.05.24 */
